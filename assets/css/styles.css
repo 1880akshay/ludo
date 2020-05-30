@@ -1,0 +1,105 @@
+.box {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 8px;
+}
+.rows {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.locker {
+    height: 70px;
+    width: 100px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20;
+}
+#locker1 {
+    background-color: #ff8585;
+    position: absolute;
+    top: 49;
+    left: 400;
+}
+#locker2 {
+    background-color: #8f96ff;
+    position: absolute;
+    top: 478;
+    left: 1037;
+}
+.home {
+    height: 70px;
+    width: 100px;
+    text-align: center;
+    font-size: 20;
+}
+#home1 {
+    background-color: #ff8585;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+#home2 {
+    background-color: #8f96ff;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    margin-top: 30px;
+    float: right;
+}
+.extra {
+    width: 400px;
+    height: 50px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+#turn {
+    background-color: silver;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 20;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 1px solid black;
+}
+#roll {
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    font-size: 20;
+    border-top: 0;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 1px solid black;
+}
+#dice {
+    background-color: #e8e6e6;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    border-top: 0;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.tokenRed {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 3px solid brown;
+}
+.tokenBlue {
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 3px solid navy;
+}

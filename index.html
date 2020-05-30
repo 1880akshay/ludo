@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <title>Ludo</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        <br><br>
+        <div id="locker1" class="locker">
+            Locker A<br>
+            <div id="tokenRed1" class="tokenRed" onclick="tokenRed1Click()"></div>
+            <div id="tokenRed2" class="tokenRed" onclick="tokenRed2Click()"></div>
+        </div>
+        <div id="locker2" class="locker">
+            Locker B<br>
+            <div id="tokenBlue1" class="tokenBlue" onclick="tokenBlue1Click()"></div>
+            <div id="tokenBlue2" class="tokenBlue" onclick="tokenBlue2Click()"></div>
+        </div>
+        <div class="rows">
+            <div id="1" class="box 19" style="background-color: #f54e4e;"></div>
+            <div id="2" class="box 20"></div>
+            <div id="3" class="box 21"></div>
+            <div id="4" class="box 22"></div>
+            <div id="5" class="box 23"></div>
+            <div id="6" class="box 24"></div>
+            <div id="7" class="box 25"></div>
+            <div id="8" class="box 26"></div>
+            <div id="9" class="box 27"></div>
+            <div id="10" class="box 28"></div>
+        </div>
+        <div class="rows">
+            <div id="36" class="box 18" style="background-color: #ff8585;"></div>
+            <div class="extra" style="border-top: 1px solid black;">
+                <div id="home1" class="home">
+                    Home A<br>
+                </div>
+            </div>
+            <div id="11" class="box 29"></div>
+        </div>
+        <div class="rows">
+            <div id="35" class="box 17"></div>
+            <div class="extra"></div>
+            <div id="12" class="box 30"></div>
+        </div>
+        <div class="rows">
+            <div id="34" class="box 16"></div>
+            <div class="extra"></div>
+            <div id="13" class="box 31"></div>
+        </div>
+        <div class="rows">
+            <div id="33" class="box 15"></div>
+            <div class="extra">
+                <center><div id="turn">TURN: Player <span id="player">A</span></div></center>
+            </div>
+            <div id="14" class="box 32"></div>
+        </div>
+        <div class="rows">
+            <div id="32" class="box 14"></div>
+            <div class="extra">
+                <center><button type="button" id="roll">ROLL</button></center>
+            </div>
+            <div id="15" class="box 33"></div>
+        </div>
+        <div class="rows">
+            <div id="31" class="box 13"></div>
+            <div class="extra">
+                <center><div id="dice"><img src="assets/images/dice.png" id="die"></div></center>
+            </div>
+            <div id="16" class="box 34"></div>
+        </div>
+        <div class="rows">
+            <div id="30" class="box 12"></div>
+            <div class="extra">
+                <div id="home2" class="home">
+                    Home B<br>
+                </div>
+            </div>
+            <div id="17" class="box 35"></div>
+        </div>
+        <div class="rows">
+            <div id="29" class="box 11"></div>
+            <div class="extra" style="border-bottom: 1px solid black;"></div>
+            <div id="18" class="box 36" style="background-color: #8f96ff;"></div>
+        </div>
+        <div class="rows">
+            <div id="28" class="box 10"></div>
+            <div id="27" class="box 9"></div>
+            <div id="26" class="box 8"></div>
+            <div id="25" class="box 7"></div>
+            <div id="24" class="box 6"></div>
+            <div id="23" class="box 5"></div>
+            <div id="22" class="box 4"></div>
+            <div id="21" class="box 3"></div>
+            <div id="20" class="box 2"></div>
+            <div id="19" class="box 1" style="background-color: #565dcc;"></div>
+        </div>
+
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
